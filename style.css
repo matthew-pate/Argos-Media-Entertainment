@@ -1,0 +1,40 @@
+#logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.h1 {
+    float: right;
+    
+}
+a {
+    color:white;
+}
+
+a:hover {
+    color:#fd0105;
+}
+
+body {
+    background-color:#ebecbb;
+    margin: 0px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    margin-top: 165px;
+    background-color: #000000;
+}
+
+.nav_item {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
