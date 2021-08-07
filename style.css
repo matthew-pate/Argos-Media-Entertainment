@@ -1,13 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #logo {
     width: 200px;
     height: 200px;
-    float: left;
+    margin-top: 20px;
+    margin-left: 20%;
 }
 
-.h1 {
-    float: right;
-    
-}
+.header_text {
+     width: 100%;
+    }
+
 a {
     color:white;
 }
@@ -17,7 +23,7 @@ a:hover {
 }
 
 body {
-    background-color:#ebecbb;
+    background-color:##ced2d6;
     margin: 0px;
 }
 
@@ -26,7 +32,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 8px;
-    margin-top: 165px;
+    margin-top:auto;
     background-color: #000000;
 }
 
