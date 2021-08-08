@@ -80,6 +80,19 @@ h2{
     text-align: center;
 }
 
+.author {
+color:#42566c
+}
+
+.article_nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 825px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
 .article_text {
     max-width: 800px;
     height: 400px;
