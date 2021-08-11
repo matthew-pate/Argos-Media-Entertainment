@@ -1,3 +1,11 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+p {
+    color:#0f1419;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -15,15 +23,15 @@
     }
 
 a {
-    color:#e83333;
+    color:#db484a;
 }
 
 a:hover {
-    color:#d0c77a;
+    color:#657ead;
 }
 
 body {
-    background-color:#ffffff;
+    background-color:#eae5d6;
     margin: 0px;
 }
 h2{
@@ -48,7 +56,7 @@ h2{
     align-items: center;
     padding: 8px;
     margin-top:auto;
-    background-color: #000000;
+    background-color: #0f1419;
 }
 
 .nav_item {
@@ -81,7 +89,7 @@ h2{
 }
 
 .author {
-color:#42566c
+color:#657ead;
 }
 
 .article_nav {
