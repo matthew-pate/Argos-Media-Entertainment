@@ -118,6 +118,10 @@ color:#657ead;
     overflow: scroll;
 }
 
+ul {
+    list-style: none;
+}
+
 .album_title {
     font-style: italic;
 }
