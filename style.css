@@ -119,6 +119,26 @@ color:#657ead;
     overflow: scroll;
 }
 
+.album-art-left{
+    display: flex;
+    float: left;
+    padding-right: 25px;
+}
+
+.album-text-right {
+    float: right;
+}
+
+.album-art-right {
+    display: flex;
+    float: right;
+    padding-left: 25px;
+}
+
+.album-text-left {
+    float: left;
+}
+
 ul {
     list-style: none;
 }
