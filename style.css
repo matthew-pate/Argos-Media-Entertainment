@@ -19,10 +19,6 @@ p {
     /* margin-left: 20%; */
 }
 
-.header-text {
-    
-}
-
 a {
     color:#db484a;
 }
@@ -139,8 +135,12 @@ color:#657ead;
     float: left;
 }
 
-ul {
-    list-style: none;
+.album-art-center{
+    text-align: center;
+}
+
+ul{
+    list-style:none;
 }
 
 .album_title {
