@@ -54,6 +54,7 @@ h2{
     padding: 8px;
     margin-top:auto;
     background-color: #0f1419;
+    font-weight: bolder;
 }
 
 .nav_item {
@@ -147,18 +148,6 @@ ul{
     font-style: italic;
 }
 
-#shop-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.shop-iframe {
-    display: block;
-    width: 95%;
-    min-height: 700px;
-}
-
 #pagination {
     text-align: center;
 }
@@ -173,6 +162,46 @@ ul{
     text-decoration: none;
   }
 
+  #concert_reviews_container {
+    text-align: center;
+}
+
+#book_reviews_container {
+    text-align: center;
+}
+
+#about_container {
+    text-align: center;
+    /* width: 100%; */
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dog_ball {
+    text-align: center;
+    height: 60px;
+}
+
+#shop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-iframe {
+    display: block;
+    width: 95%;
+    min-height: 700px;
+}
+
+#disclaimer_content {
+    display: block;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    padding: 25px 25px;
+
+}
   footer {
     text-align: center;
     width: 100%;
