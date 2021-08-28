@@ -197,11 +197,19 @@ ul{
 #disclaimer_content {
     display: block;
     text-align: left;
-    width: 50%;
+    width: 70%;
     margin: auto;
     padding: 25px 25px;
-
 }
+
+#privacy_container{
+    display: block;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 25px 25px;
+    }
+
   footer {
     text-align: center;
     width: 100%;
