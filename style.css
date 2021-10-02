@@ -41,6 +41,8 @@ h2{
 #top-feature {
     text-align: center;
 }
+
+
 #featured-columns {
     display: flex;
     flex-direction: row;
