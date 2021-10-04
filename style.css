@@ -238,6 +238,9 @@ ul{
     height: 60px;
 }
 
+@keyframes bounce { 30% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
+.dog_ball { animation: bounce 0.8s infinite alternate; }
+
 #shop-container {
     display: flex;
     align-items: center;
