@@ -45,13 +45,14 @@ p {
     margin-left: 30%;
     margin-right: auto;
     text-align: center;
+    margin-top: auto;
 }
 
 
-/* h1,
+h1,
 h2 {
     text-align: center;
-} */
+}
 
 #featured {
     padding-top: 20px;
