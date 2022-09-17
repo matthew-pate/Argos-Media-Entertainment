@@ -48,6 +48,14 @@ p {
     margin-top: auto;
 }
 
+#about_title,
+#shop_title,
+#books_title,
+#concert_title,
+#Review_page_title,
+#home_title {
+    padding-top: 5px;
+}
 
 h1,
 h2 {
@@ -81,7 +89,7 @@ blockquote {
 }
 
 #featured {
-    padding-top: 20px;
+    padding-top: 5px;
     text-align: center;
 }
 
