@@ -2,55 +2,62 @@
     font-family: 'Courier New', Courier, monospace
 }
 
-p {
-    color:#0f1419;
-}
-
-#header {
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    text-align: center;
-}
-
-#logo {
-    float: left;
-    flex-direction: row;
-    width: 150px;
-    height: 150px;
-    margin-top: 20px;
-    padding: 5px;
-    /* padding-right: 345px; */
-    padding-left: 110px;
-    /* margin-left: 20%; */
-}
-
-.header_text {
-    float: right;
-    padding-top: 25px;
-    margin-left: 325px;
-    
-}
-
 a {
-    color:#db484a;
+    /* color: #db484a; */
+    /* color: #486084; */
+    color: #B50404;
 }
 
 a:hover {
-    color:#657ead;
+    /* color: #314353; */
+    color: #0f1419;
+}
+
+a:visited {
+    color: #8A0000;
 }
 
 body {
-    background-color:#eae5d6;
+    /* background-color: #eae5d6; */
+    background-color: #FFFFFF;
     margin: 0px;
 }
-h2{
+
+p {
+    color: #314353;
+}
+
+
+
+#header {
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.header_text {
+    margin-left: 30%;
+    margin-right: auto;
     text-align: center;
 }
+
+
+/* h1,
+h2 {
+    text-align: center;
+} */
+
 #featured {
-    padding-top:20px;
+    padding-top: 20px;
     text-align: center;
 }
+
 #top-feature {
     text-align: center;
 }
@@ -59,10 +66,13 @@ h2{
 #featured-columns {
     display: flex;
     flex-direction: row;
-   
+
 }
- #featured-column-1, #featured-column-2, #featured-column-3 {
-  
+
+#featured-column-1,
+#featured-column-2,
+#featured-column-3 {
+
     text-justify: left;
     width: 100%;
     height: 400px;
@@ -76,45 +86,55 @@ h2{
     width: 400px;
     padding: 30px;
 }
- 
-#img3, #img2, #img1, .img3, .img2, .img1 {
-max-width: 10%;
-height: auto;
-padding-left: 90px;
+
+#img3,
+#img2,
+#img1,
+.img3,
+.img2,
+.img1 {
+    max-width: 10%;
+    height: auto;
+    padding-left: 90px;
 }
 
-.about_text{
+.about_text {
     text-align: center;
 }
+
 .zoey {
     text-align: center;
     max-height: 400px;
-    
+
 }
 
-.about{
+.about {
     margin-left: 15px;
 }
-.nav_menu{
+
+.nav_menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 8px;
-    margin-top:auto;
-    background-color: #0f1419;
+    margin-top: 50px;
     font-weight: bolder;
+    box-shadow: 5px 5px 15px 5px;
 }
 
 .nav_item {
     list-style: none;
 }
 
-.flex-container, #row1, #row2, #row3 {
-   display: flex;
-   flex-direction: row;
-   margin-right: 30px;
-   padding-top: 50px;
-   /* width: 900px; */
+.flex-container,
+#row1,
+#row2,
+#row3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    padding-top: 50px;
+    /* width: 900px; */
 }
 
 .article_title_date_author {
@@ -123,7 +143,7 @@ padding-left: 90px;
     flex-wrap: wrap;
 }
 
-.article_short_text{
+.article_short_text {
     text-justify: left;
     width: 600px;
     height: 200px;
@@ -135,15 +155,16 @@ padding-left: 90px;
 }
 
 .article_title {
-    text-align:center;
-}
-
-.article_date{
     text-align: center;
 }
 
-.author, h5 {
-color:#657ead;
+.article_date {
+    text-align: center;
+}
+
+.author,
+h5 {
+    color: #657ead;
 }
 
 .article_nav {
@@ -164,7 +185,7 @@ color:#657ead;
     overflow: scroll;
 }
 
-.album-art-left{
+.album-art-left {
     display: flex;
     float: left;
     padding-right: 25px;
@@ -180,16 +201,17 @@ color:#657ead;
     padding-left: 25px;
 }
 
-.album-text-left{
+.album-text-left {
     float: left;
 }
 
-#album-art-center, .album_art_center{
-    text-align:center;
+#album-art-center,
+.album_art_center {
+    text-align: center;
 }
 
-ul{
-    list-style:none;
+ul {
+    list-style: none;
 }
 
 .album_title {
@@ -199,22 +221,23 @@ ul{
 #pagination {
     text-align: center;
 }
+
 .pagination {
     display: inline-block;
-  }
-  
+}
+
 .pagination a {
     color: black;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
-  }
+}
 
-  #concert_reviews_container {
+#concert_reviews_container {
     text-align: center;
 }
 
-#concert-columns{
+#concert-columns {
     /* display: flex; */
     display: none;
     justify-content: space-evenly;
@@ -233,13 +256,25 @@ ul{
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .dog_ball {
     text-align: center;
     height: 60px;
 }
 
-@keyframes bounce { 30% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
-.dog_ball { animation: bounce 0.8s infinite alternate; }
+@keyframes bounce {
+    30% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.dog_ball {
+    animation: bounce 0.8s infinite alternate;
+}
 
 #shop-container {
     display: flex;
@@ -261,67 +296,71 @@ ul{
     padding: 25px 25px;
 }
 
-#privacy_container{
+#privacy_container {
     display: block;
     text-align: left;
     width: 70%;
     margin: auto;
     padding: 25px 25px;
-    }
+}
 
-  footer {
+footer {
     text-align: center;
     width: 100%;
     margin-top: 30px;
 }
 
 @media (max-width: 900px) {
-   
-    .header, #logo, .header_text {
+
+    .header,
+    #logo,
+    .header_text {
         display: flex;
         flex-direction: column;
         padding: 0;
         /* margin-left: 50%; */
-        
+
     }
 
     #logo {
         padding-left: 40%;
     }
- 
- .header_text {
-     width: 100%;
-     padding-left: 5%;
-     /* padding-right: 30%; */
-     /* text-align: center; */
-     /* margin-left: -25px; */
 
- }
+    .header_text {
+        width: 100%;
+        padding-left: 5%;
+        /* padding-right: 30%; */
+        /* text-align: center; */
+        /* margin-left: -25px; */
+
+    }
 
     #featured-columns {
         flex-direction: column;
         margin-left: 20%;
-    
+
     }
 
-    #featured-column-1, #featured-column-2, #featured-column-3 {
+    #featured-column-1,
+    #featured-column-2,
+    #featured-column-3 {
         padding-top: 25px;
         padding-bottom: 25px;
     }
 
     .flex-container {
-        
-      flex-direction: column;
+
+        flex-direction: column;
     }
-    
-    .article_short_text{
+
+    .article_short_text {
         overflow: scroll;
         max-width: 300px;
         height: 200px;
         margin-left: 15%;
-        
+
     }
-    
+
     footer {
         text-align: center;
         width: 100%;
