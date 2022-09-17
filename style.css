@@ -275,23 +275,38 @@ ul{
     margin-top: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
    
     .header, #logo, .header_text {
         display: flex;
         flex-direction: column;
-        margin-left: 50%;
         padding: 0;
+        /* margin-left: 50%; */
         
+    }
+
+    #logo {
+        padding-left: 40%;
     }
  
  .header_text {
-     text-align: center;
-     margin-left: -25px;
+     width: 100%;
+     padding-left: 5%;
+     /* padding-right: 30%; */
+     /* text-align: center; */
+     /* margin-left: -25px; */
+
  }
 
     #featured-columns {
         flex-direction: column;
+        margin-left: 20%;
+    
+    }
+
+    #featured-column-1, #featured-column-2, #featured-column-3 {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .flex-container {
