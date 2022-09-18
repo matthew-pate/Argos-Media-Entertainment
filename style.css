@@ -1,5 +1,6 @@
 * {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
 a {
@@ -124,7 +125,8 @@ blockquote {
     margin-bottom: 3rem;
 }
 
-.fp_article_short_text {
+.fp_article_short_text,
+.article_short_text {
     width: 280px;
     padding: 10px;
 }
@@ -161,6 +163,11 @@ blockquote {
     list-style: none;
 }
 
+.pagination {
+    display: inline-block;
+    margin-left: 45%;
+}
+
 .flex-container,
 #row1,
 #row2,
@@ -178,16 +185,7 @@ blockquote {
     flex-wrap: wrap;
 }
 
-.article_short_text {
-    text-justify: left;
-    width: 280px;
-    height: 200px;
-    margin-right: 10px;
-    padding-left: 10px;
-    flex-wrap: wrap;
-    overflow: scroll;
-    /* padding: 20px; */
-}
+
 
 .article_title {
     text-align: center;
@@ -246,21 +244,6 @@ ul {
 
 .album_title {
     font-style: italic;
-}
-
-#pagination {
-    text-align: center;
-}
-
-.pagination {
-    display: inline-block;
-}
-
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
 }
 
 #concert_reviews_container {
@@ -535,6 +518,14 @@ footer {
         height: 200px;
         margin-left: 15%;
 
+    }
+
+    #album_grid,
+    #row1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: left;
     }
 
     footer {
